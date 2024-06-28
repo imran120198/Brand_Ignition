@@ -13,7 +13,7 @@ const Experience = () => {
     {
       icon: ees,
       companyName: "Enterprising Era Solution",
-      startDate: "January, 2021",
+      startDate: "Jan, 2021",
       endDate: "May, 2021",
       position: "IT Sales Consultant",
     },
@@ -52,14 +52,14 @@ const Experience = () => {
             <div className="flex justify-between items-center text-white">
               <div className="flex items-center gap-2 my-3">
                 <img src={ees} alt="" width={40} className="rounded-full" />
-                <p className="text-xl">{experience.companyName}</p>
+                <p className="text-lg">{experience.companyName}</p>
               </div>
               <p className="text-sm opacity-50">
                 {experience.startDate} - {experience.endDate}
               </p>
             </div>
             <div>
-              <p className="text-lg text-white opacity-50">
+              <p className="text-sm text-white opacity-50">
                 {experience.position}
               </p>
             </div>

@@ -10,7 +10,7 @@ import projectArray from "./projectArray";
 function Project() {
   const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } =
     useAnimatedLetters();
-  const projects = ["M", "Y", " ", "P", "R", "O", "J", "E", "C", "T", "S"];
+  const projects = ["M", "y", " ", "P", "r", "o", "j", "e", "c", "t", "s"];
 
   return (
     <div id="projects" className="max-w-7xl mx-auto py-20 px-8 h-full">

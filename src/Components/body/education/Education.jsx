@@ -20,10 +20,10 @@ const Education = () => {
     },
     {
       icon: nist,
-      companyName: "National Institute of Science and Technology (B-Tech)",
-      startDate: "August, 2015",
-      endDate: "March, 2019",
-      position: "Mechanical Engineering",
+      companyName: "National Institute of Science and Technology",
+      startDate: "Aug, 2015",
+      endDate: "Mar, 2019",
+      position: "B-Tech (Mechanical Engineering)",
     },
   ];
 
@@ -63,7 +63,7 @@ const Education = () => {
                   width={40}
                   className="rounded-full"
                 />
-                <p className="text-xl">{elem.companyName}</p>
+                <p className="text-lg">{elem.companyName}</p>
               </div>
               <p className="text-sm opacity-50">
                 {elem.startDate} - {elem.endDate}

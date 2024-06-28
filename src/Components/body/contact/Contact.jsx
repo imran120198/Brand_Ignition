@@ -13,7 +13,7 @@ import { FaGithub } from "react-icons/fa";
 function Contact() {
   const { letterClass, isHovering, handleMouseEnter, handleMouseLeave } =
     useAnimatedLetters();
-  const contact = ["C", "O", "N", "T", "A", "C", "T", " ", "M", "E"];
+  const contact = ["C", "o", "n", "t", "a", "c", "t", " ", "M", "e"];
   return (
     <div id="contact" className="max-w-7xl mx-auto py-20 px-8 h-full relative">
       <div data-aos="fade-right" className="mb-10">
@@ -32,7 +32,7 @@ function Contact() {
       <div className="flex flex-row gap-12 justify-evenly max-lg:flex-col">
         <div
           data-aos="zoom-in"
-          className="flex flex-row gap-2 items-center shadow-md shadow-[#06092e41] duration-500 p-2 rounded-md p-4"
+          className="flex flex-row gap-2 items-center shadow-md shadow-[#06092e41] duration-500 p-2 rounded-md p-6"
           style={{
             boxShadow:
               "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset",
